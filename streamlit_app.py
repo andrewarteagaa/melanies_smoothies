@@ -30,7 +30,7 @@ ingredients_list = st.multiselect(
 )
 # seeing what is contained inside the ingredients_list object
 
-if ingredients_list:
+if not ingredients_list:
     #st.write(ingredients_list)
     #st.text(ingredients_list)
     
